@@ -1,0 +1,10 @@
+
+SecAction \
+    "id:9515010,\
+    phase:1,\
+    nolog,\
+    pass,\
+    t:none,\
+    ver:'pgadmin-rule-exclusions-plugin/1.0.0',\
+    setvar:'tx.pgadmin-rule-exclusions-plugin_enabled=1',\
+    setvar:'tx.pgadmin-rule-exclusions-plugin_session_cookie_name=pga4_session'"
