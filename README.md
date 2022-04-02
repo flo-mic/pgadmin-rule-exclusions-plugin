@@ -1,0 +1,1 @@
+# pgadmin-rule-exclusions-plugin
