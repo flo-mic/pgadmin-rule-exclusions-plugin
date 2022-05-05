@@ -13,7 +13,7 @@ run flawlessly togather with OWASP ModSecurity Core Rule Set (CRS).
 ## Installation
 
 Copy all files from `plugins` directory into the `plugins` directory of your CRS
-installation and rename the sample configuration file `plugins/pgadmin-rule-exclusions-config.conf.example` to `plugins/pgadmin-rule-exclusions-config.conf`.
+installation.
 
 ### Preparation for older installations
 
@@ -44,7 +44,7 @@ after like above. Adjust the paths accordingly._
 
 ## Configuration
 
-This plugin can be enabled globally or in single locations. To en file `plugins/pgadmin-rule-exclusions-config.conf.example` to `plugins/pgadmin-rule-exclusions-config.conf`. To enable the plugin in a single server/location block add the content of the file `plugins/pgadmin-rule-exclusions-config.conf.example` in the `modsecurity_rules` directive of the server/location.
+This plugin can be enabled globally or in single locations with the variable in rule id `9516010` inside the file `plugins/pgadmin-rule-exclusions-config.conf`.
 
 
 ### tx.pgadmin-rule-exclusions-plugin_enabled
